@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+.container{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+}
+.card{
+    background-color: lightgrey;
+    min-height: 80vh;
+    width: 50%;
+    overflow: scroll;
+   padding: 1.5rem;
+
+}
+.card-title{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#todo-input{
+    border-radius: .6rem;
+    padding: .5rem;
+    border: none;
+    width: 80%;
+    font-size: 1.5rem;
+}
+.btn{
+    border-radius: .6rem;
+    padding: .5rem;
+    width: 19%;
+    border: none;
+    font-size: 1.5rem;
+    background-color: orange;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.li-style{
+    display: flex;
+    justify-content: cente;
+    align-items: center;
+}
